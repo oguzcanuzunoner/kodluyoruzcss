@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oğuzcan Uzunöner</title>
+    <meta
+      name="description"
+      content="Oğuzcan Uzunöner'in Kodluyoruz için ilk css ödevidir."
+    />
+    <meta
+      name="author"
+      content="Oğuzcan Uzunöner, http://github.com/oguzcanuzunoner/, https://www.linkedin.com/in/oguzcanuzunoner/"
+    />
+    <meta http-equiv="content-language" content="tr" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html{
+        background-color: #51c4d3;
+      }
+      header {
+        width: 100%;
+        height: 70px;
+        background-color: #132c33;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 75%;
+      }
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+      }
+      ul li {
+        list-style-type: none;
+      }
+      ul li a {
+        color: #d8e3e7;
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+      ul li a:hover {
+        background-color: #126e82;
+        opacity: 0.5;
+      }
+
+      section {
+        margin: 2% auto;
+        padding: 2rem;
+        display: flex;
+        
+      }
+
+      article {
+        background-color: #132c33;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        margin: 1rem 0.5rem;
+      }
+      section article img{
+        padding-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="about.html">Hakkımda</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article>
+          <a href="https://www.linkedin.com/in/oguzcanuzunoner/"><img
+            src="https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1618689263~hmac=290dac7ee28305ba4c6d70fb2775d793" width="50px"
+            alt="linkedin"
+          /></a>
+          <a href="https://www.github.com/oguzcanuzunoner/"><img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px"
+            alt="Article 1"
+          /></a>
+        
+      </article>
+    </section>
+  </body>
+</html>
